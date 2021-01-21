@@ -1,5 +1,5 @@
-# curtana.glitch.me
-![LOGO](https://curtana.glitch.me/static/logo.png)
+# realmesix.glitch.me
+![LOGO](https://realmesix.glitch.me/static/logo.png)
 
 ## What is this?
 This is a module pack for the [polygon](https://github.com/justaprudev/polygon) project, which can be loaded using some alpha features.
