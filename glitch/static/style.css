@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Product Sans";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 320;
     src: local("Open Sans"), local("OpenSans"),
       url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
         format("woff2");
@@ -12,51 +12,76 @@ body {
     background-color: black !important;
     font-family: Product Sans !important;
     color: white !important;
-    padding: 50px;
+    padding: 60px;
 }
 
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    max-width: 100% !important;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: auto;
 }
 
 
-.container a {
-    color: #4285f4;
+.background {
+    border-radius: 15px;
+    background-color: #202020;
 }
 
 
-.container div {
-    margin: 5%;
+.content {
+    background-color: #121212; 
+    padding: 30px; 
+    border-radius: 15px;
+    height: auto;
 }
 
 
-.container li {
-    list-style-type: none;
-    font-size: 140%;
+.content li {
+    list-style-type: disc;
+    font-size: 130%;
 }
 
 
-.container li:before {
-    content: "/";
+.image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
 }
 
 
-.container img {
-    border-radius: 10px;
-}
-
-
-.background-card {
-    background-color: #121212;
-    border-radius: 10px;
-    margin-right: 0%;
+.badge {
+    color: #5999ff; 
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: #5999ff;
+    font-size: 55%;
+    font-family: Arial;
+    padding: 3px; 
+    margin-left: 6px;
+    vertical-align: 20%;
 }
 
 
 .red {
-    color: #ea4335 !important;
+    color: #ff666b !important;
+}
+
+
+.purple {
+    color: #9b80ff !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        grid-template-columns: auto auto auto;
+    }
+    .content {
+        height: 96%;
+    }
+    .image {
+        width: 35%;
+    }
 }
