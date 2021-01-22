@@ -9,7 +9,7 @@
 
 
 body {
-    background-color: black !important;
+    background-color: #1a1a2e !important;
     font-family: Product Sans !important;
     color: white !important;
     padding: 50px;
@@ -59,8 +59,4 @@ body {
 
 .red {
     color: #ea4335 !important;
-}
-
-h2 {
-    padding: 20px;
 }
