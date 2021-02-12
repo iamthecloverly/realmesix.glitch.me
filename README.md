@@ -4,6 +4,10 @@
 ## What is this?
 This is a module pack for the [polygon](https://github.com/justaprudev/polygon) project, which can be loaded using some alpha features.
 
+<a href="https://github.com/TheCloverly/github-readme-stats/actions">
+      <img alt="Tests Passing" src="https://github.com/TheCloverly/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+
 <i>Follow me around the web:</i><br>
 
 <a href="https://www.twitter/TheCloverly" target="_blank"><img src="https://img.shields.io/badge/Twitter-blue.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
