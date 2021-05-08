@@ -61,13 +61,6 @@ body {
     color: #FFFF00 !important;
 }
 
-.fa-heart {
-	color: red;
-}
-
-.pulse {
-	-webkit-animation: pulse 1s linear infinite;
-	-moz-animation: pulse 1s linear infinite;
-	-ms-animation: pulse 1s linear infinite;
-	animation: pulse 1s linear infinite;
+.red {
+    color: #EF6351 ;
 }
